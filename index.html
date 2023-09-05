@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tic tac Toe Game</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="fav.ico" type="image/x-icon"/>
+  </head>
+  <body>
+    <nav>Tic Tac Toe </nav>
+    <h3 id="status">You Won😀</h3>
+    <div class="main">
+      <div class="userscore">
+        User ( X ) Score : <span id="x-score">0</span>
+      </div>
+      <div class="game">
+        <div data-index="0" class="box bt bl"></div>
+        <div data-index="1" class="box bt"></div>
+        <div data-index="2" class="box bt br"></div>
+        <div data-index="3" class="box bl"></div>
+        <div data-index="4" class="box"></div>
+        <div data-index="5" class="box br"></div>
+        <div data-index="6" class="box bb bl"></div>
+        <div data-index="7" class="box bb"></div>
+        <div data-index="8" class="box bb br"></div>
+      </div>
+
+      <div class="systemscore">
+        User ( O ) Score : <span id="o-score">0</span>
+      </div>
+    </div>
+    <button class="reset">Restart Game</button>
+
+    <script src="script.js"></script>
+  </body>
+</html>
